@@ -1,0 +1,93 @@
+header{
+    text-align: center;
+    background-image: url("https://t4.ftcdn.net/jpg/00/53/71/33/240_F_53713379_QNxpCOOBc3neIUD7pfO9UgKWhAXFawrr.jpg");
+    background-repeat: no-repeat;
+    height: 300px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-size: xx-large;
+    color: red;
+    position: fixed;
+    width:100%;
+    background-attachment: fixed;
+    background-size: 1695px 200px;
+}
+
+.container-fluid{
+    padding-top: 250px;
+    
+}
+
+.img1{
+    height: auto;
+    width: auto;
+   
+}
+
+.img2{
+    height: auto;
+    width: auto;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    font-size: larger;
+    margin-top: 130px;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+}
+
+.title{
+    position:static;
+}
+
+p{
+    font-weight: 400;
+    font-size:larger;
+}
+
+.row{
+    width: auto;
+    height: auto;
+    box-shadow: 10px 10px 5px black;
+    padding: 15px;
+}
+
+@media screen and (max-width:500px){
+    .col{
+        width: 100%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:1600px){
+    .col{
+        width: 50%;
+    }
+    .img1{
+        width: 100%;
+    }
+    .img2{
+        width: 100%;
+    }
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
